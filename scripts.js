@@ -11,7 +11,7 @@ while (true) {
 
     input = Number(input)
 
-    if (typeof input == "number" && ! Number.isNaN(input)) {
+    if (!Number.isNaN(input)) {
         NOTAS.push(input)
     }
     else {
